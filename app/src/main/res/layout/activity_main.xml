@@ -7,18 +7,32 @@
     tools:context=".MainActivity">
 
 
-    <com.anthonyidoko.com.basicShape.lines.VerticalLines
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+<!--    <com.anthonyidoko.com.basicShape.lines.VerticalLines-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"/>-->
 
-    <com.anthonyidoko.com.basicShape.lines.HorizontalLines
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <com.anthonyidoko.com.basicShape.lines.HorizontalLines-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+
+<!--    <com.anthonyidoko.com.basicShape.lines.DrawingCycle-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <com.anthonyidoko.com.basicShape.lines.Rectangle-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="20dp"/>-->
+
+    <com.anthonyidoko.com.basicShape.lines.Slider
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-146dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
